@@ -43,22 +43,7 @@
 
 ##  Project Flow
 
-```mermaid
-graph TD
-    A[User Source: Image/Video/Camera] --> B[Flask Backend Controller]
-    B --> C{YOLOv8 Inference Engine}
-    C -->|Identify Defects| D[Processed Frame with Bounding Boxes]
-    D --> E[Real-time Stream / Output View]
-    C -->|Metadata| F[(MySQL Database)]
-    F --> G[Analytics Dashboard]
-    G --> H[PDF Report Generation]
-    
-    subgraph "Authentication & Security"
-    I[User Login] --> J{Role Check}
-    J -->|Super Admin| K[User Management]
-    J -->|Admin/Technical| L[Dashboard Access]
-    end
-```
+![flow](workflow.jpg)
 
 ---
 
