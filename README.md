@@ -1,6 +1,6 @@
 # SensSystem: Advanced Cable Defect Detection
 
-![SensSystem Banner](senssystem_banner_1776805080278.png)
+![SensSystem Banner](dashbourd.png)
 
 ## Project Overview
 **SensSystem** is a state-of-the-art, web-based AI solution designed for real-time defect detection in cables. Leveraging computer vision and deep learning, the system identifies manufacturing flaws, wear, and structural anomalies with high precision. It provides a comprehensive dashboard for monitoring live feeds, processing uploaded media, and analyzing historical detection data.
